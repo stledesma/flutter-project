@@ -26,7 +26,7 @@ class Notice extends StatelessWidget{
                     margin: EdgeInsets.only(top: 10.0, left: 0.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        fit: BoxFit.cover,
+                        fit: BoxFit.fill,
                         image: AssetImage('assets/images/notice.jpg'),
                       ),
                       borderRadius: BorderRadius.all(
